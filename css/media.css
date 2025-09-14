@@ -1,0 +1,160 @@
+@media (max-width:576px) {
+    #home .contener {
+        justify-content: center;
+    }
+
+    #home .contener .caption {
+        order: 1;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    #home .contener .pic {
+        width: 100%;
+    }
+
+    #chefs .contener .item {
+        width: 100%;
+    }
+
+    #navbar .list {
+        display: none;
+    }
+
+    #gallery .gallery-pic .sec {
+        width: 100%;
+    }
+
+    #contact .datas .data {
+        width: 100%;
+    }
+
+    #footer .contener-3 .about {
+        width: 100%;
+    }
+
+    #footer .contener-3 .about button {
+        padding: 14px 109px;
+    }
+
+    .fa-bars {
+        opacity: 1;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    #navbar .list {
+        display: none;
+    }
+
+    #home .contener .caption {
+        order: 1;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    #home .contener .pic {
+        width: 100%;
+    }
+
+    #chefs .contener .item {
+        width: 95%;
+    }
+
+    #gallery .gallery-pic .sec {
+        width: 100%;
+    }
+
+
+    #contact .datas .data {
+        width: 100%;
+    }
+
+    #footer .contener-3 .about {
+        width: 100%;
+    }
+
+    .fa-bars {
+        opacity: 1;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    #home .contener .caption {
+        order: 1;
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    #home .contener .pic {
+        width: 100%;
+    }
+
+    #home .contener .btn-group {
+        justify-content: space-around;
+    }
+
+
+    #chefs .contener .item {
+        width: 47%;
+    }
+
+    #gallery .gallery-pic .sec {
+        width: 48%;
+    }
+
+    #contact .datas .data {
+        width: 48%;
+    }
+
+    #footer .contener-3 .about {
+        width: 50%;
+    }
+
+    .grow {
+        order: 1;
+    }
+
+    .fa-bars {
+        opacity: 1;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    #home .contener .btn-group a {
+        margin: 0;
+    }
+
+    #gallery .gallery-pic .sec {
+        width: 48%;
+    }
+
+    #contact .datas .data {
+        width: 48.5%;
+    }
+
+    #footer .contener-3 .about {
+        width: 50%;
+    }
+
+    .grow {
+        order: 1;
+    }
+
+    #chefs .contener .item {
+        width: 47%;
+    }
+}
+
+@media (min-width:1200px) {
+    #gallery .gallery-pic .sec {
+        width: 32.5%;
+    }
+}
